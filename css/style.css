@@ -1,0 +1,71 @@
+.drag{
+	background-color: #a5b1a8;
+}
+
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+}
+.back_select{
+	background-color: #3873af;
+}
+#feedback { 
+	font-size: 1.4em; 
+}
+  #selectable .ui-selecting { 
+  	background: #FECA40; 
+  }
+  #selectable .ui-selected { 
+  	background: #F39814; 
+  	color: white; 
+  }
+  #selectable { 
+  	list-style-type: none; 
+  	margin: 0 auto; 
+  	padding: 0; 
+  	width: 60%; 
+  }
+  #selectable li { 
+  	margin: 3px; 
+  	padding: 0.4em; 
+  	font-size: 1.4em; 
+  	 
+  	border: 1px solid greenyellow;
+  }
+
+  /*Sortable Start*/
+  .back_sort{
+  	background-color: #38af83;
+
+  }
+  #sortable { 
+  	list-style-type: none; 
+  	margin: 0 auto; 
+  	padding: 0; 
+  	width: 60%; 
+  }
+  #sortable li { 
+  	margin: 0 3px 3px 3px; 
+  	padding: 0.4em; 
+  	padding-left: 1.5em; 
+  	ont-size: 1.4em; 
+  	height: 36px; 
+  }
+  #sortable li span { 
+  	position: absolute; 
+  	margin-left: -1.3em; 
+  }
+  /*Sortable End*/
+
+
+  /*Accordion Start*/
+  .accor{
+  	background-color: #38af83;
+
+  }
+  /*Accordion End*/
+
+  #menu{
+  	width: 20%;
+  }
