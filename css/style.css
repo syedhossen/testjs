@@ -1,71 +1,37 @@
-.drag{
-	background-color: #a5b1a8;
+.count_back{
+  background-color: #d1d183;
 }
 
-#draggable { 
-	width: 150px; 
-	height: 150px; 
-	padding: 0.5em; 
+.count_h3{
+  color: blue;
+  text-transform: capitalize;
 }
-.back_select{
-	background-color: #3873af;
+.counter{
+  color: red;
 }
-#feedback { 
-	font-size: 1.4em; 
+
+.box{
+  min-height: 100px;
+
+  
 }
-  #selectable .ui-selecting { 
-  	background: #FECA40; 
-  }
-  #selectable .ui-selected { 
-  	background: #F39814; 
-  	color: white; 
-  }
-  #selectable { 
-  	list-style-type: none; 
-  	margin: 0 auto; 
-  	padding: 0; 
-  	width: 60%; 
-  }
-  #selectable li { 
-  	margin: 3px; 
-  	padding: 0.4em; 
-  	font-size: 1.4em; 
-  	 
-  	border: 1px solid greenyellow;
-  }
 
-  /*Sortable Start*/
-  .back_sort{
-  	background-color: #38af83;
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+.back{
+  background-color: red;
+}
 
-  }
-  #sortable { 
-  	list-style-type: none; 
-  	margin: 0 auto; 
-  	padding: 0; 
-  	width: 60%; 
-  }
-  #sortable li { 
-  	margin: 0 3px 3px 3px; 
-  	padding: 0.4em; 
-  	padding-left: 1.5em; 
-  	ont-size: 1.4em; 
-  	height: 36px; 
-  }
-  #sortable li span { 
-  	position: absolute; 
-  	margin-left: -1.3em; 
-  }
-  /*Sortable End*/
+/*Curved Text*/
+ 
+#text1
+{
+    margin:           3.0em 0.0em;
+    overflow:         hidden;
+    color:            #ffffff;
+    background-color: #6610f2;
+}
 
 
-  /*Accordion Start*/
-  .accor{
-  	background-color: #38af83;
-
-  }
-  /*Accordion End*/
-
-  #menu{
-  	width: 20%;
-  }
